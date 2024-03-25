@@ -1,0 +1,15 @@
+OpenLRN
+-------
+Lexical Rigor Notation 
+
+
+Attempts to perform semantic and linguistic analysis on text
+
+This software is pre-pre-alpha 
+
+requires:
+
+.
+|_utils/ (containing common words.txt)
+|_resources/ (containing raw txt represntation of articles/poems/etc)
+ 
