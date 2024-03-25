@@ -101,8 +101,6 @@ def pipe(filepath: str) -> pd.DataFrame:
         lambda row:  nverbose(row["sentence"], normal) / row["count"], axis=1)
     LEX_TABLE["nlens"] = LEX_TABLE["sentence"].apply(nlen, normal=normal)
 
-    print(LEX_TABLE.head(n=20))
-    print(LEX_TABLE.describe())
     return LEX_TABLE
 
 
