@@ -1,5 +1,5 @@
 OpenLRN
--------
+---
 Lexical Rigor Notation 
 
 
@@ -12,4 +12,16 @@ requires:
 .
 |_utils/ (containing common words.txt)
 |_resources/ (containing raw txt represntation of articles/poems/etc)
+
+
+
+Example using Ur-Facism by Umberto Eco
+---
+                                             sentence  count  unique  uncommon  distribution    rarity  verbosity                                              nlens
+0   in 1942, at the age of ten, i received the fir...     31      27        16      0.005749  0.516129   0.483871  [0.40891649917778183, 1.0222912479444546, 0.40...
+1   i elaborated with rhetorical skill on the subj...     26      23         9      0.004822  0.346154   0.461538  [0.20445824958889092, 2.044582495888909, 0.817...
+2                                  i was a smart boy.      5       5         2      0.000927  0.400000   0.200000  [0.20445824958889092, 0.6133747487666728, 0.20...
+3   i spent two of my early years among the ss, fa...     25      23        11      0.004636  0.440000   0.480000  [0.20445824958889092, 1.0222912479444546, 0.61...
+4                               it was good exercise.      4       4         1      0.000742  0.250000   0.250000  [0.40891649917778183, 0.6133747487666728, 0.81...
+5    in april 1945, the partisans took over in milan.      9       8         4      0.001669  0.444444   0.444444  [0.40891649917778183, 1.0222912479444546, 1.02...
  
