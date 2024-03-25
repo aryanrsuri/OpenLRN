@@ -7,6 +7,9 @@ Attempts to perform semantic and linguistic analysis on text
 
 This software is pre-pre-alpha 
 
+#### Todo
+* don't split on new line only on punctuation (poems for example)
+
 #### Triage
 ```
 .
