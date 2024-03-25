@@ -21,9 +21,11 @@ This software is pre-pre-alpha
 #### Example Output
 ```
                                            Text     Rigor
-0  poems_of_goethe_original_dedication_1853.txt  1.429199
-1                 moby_dick_herman_melville.txt  1.530692
-2                     ur-facism_umberto_eco.txt  1.475705
+0                            finnegans_wake.txt  1.598844
+1  poems_of_goethe_original_dedication_1853.txt  1.429199
+2                 moby_dick_herman_melville.txt  1.530692
+3                     ur-facism_umberto_eco.txt  1.475705
+4               the_great_gatsby_fitzgerald.txt  1.513111
 ```
 
 ### Some cool visualisations with processed Data
