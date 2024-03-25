@@ -23,4 +23,4 @@ This software is pre-pre-alpha
 ```
 
 ### Some cool visualisations with processed Data
-![viz](https://github.com/aryansuri/OpenLRN/screens/moby_dick_count_rigor.png)
+![viz](https://github.com/aryanrsuri/OpenLRN/blob/master/screens/moby_dick_count_rigor.png?raw=true)
