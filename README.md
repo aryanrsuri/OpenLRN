@@ -24,4 +24,8 @@ This software is pre-pre-alpha
 ```
 
 ### Some cool visualisations with processed Data
-! TODO 
+![Screenshot 2024-03-24 at 10 36 56 PM](https://github.com/aryanrsuri/OpenLRN/assets/13823329/c9bcc80c-b6bb-45ba-bb9d-09ca6e523c33)
+
+![Screenshot 2024-03-24 at 10 35 42 PM](https://github.com/aryanrsuri/OpenLRN/assets/13823329/f7e3fd5b-d22a-4135-aa18-eb74772d818c)
+
+
