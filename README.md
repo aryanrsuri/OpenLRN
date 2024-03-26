@@ -37,3 +37,7 @@ This software is pre-pre-alpha
 8              ulysses_james_joyce.txt  2.415783e+06    14.697534       23454      264982            7.365
 9           les_miserables_victor_hugo  4.994009e+06    15.423750       30678      560682            9.948
 ```
+
+For this example, assuming a novel of the length of Les Miserables only containg
+the largest english word (45 characters) It would have a Log(Rigour) of
+27.538675537348215

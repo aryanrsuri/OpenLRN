@@ -125,7 +125,7 @@ def pipe(filepath: str) -> tuple[pd.DataFrame, float]:
 
     LEX_TABLE["crigour"] = LEX_TABLE["rigour"].cumsum()
     LEX_TABLE["nlens"] = LEX_TABLE["sentence"].apply(nlen, normal=normal)
-    RIGOUR = LEX_TABLE['rigour'].sum() * (word_count / len(LEX_TABLE.index))
+    RIGOUR = LEX_TABLE['rigour'].sum() * (word_count)
     # result sent to ./out
 
     filename = filepath.rsplit('/')[-1]
