@@ -1,16 +1,20 @@
-OpenLRN
----
-Lexical Rigor Notation 
+## OpenLRN
 
+Lexical Rigor Notation
 
 Attempts to perform semantic and linguistic analysis on text
 
-This software is pre-pre-alpha 
+This software is pre-pre-alpha
 
 #### Todo
-* don't split on new line only on punctuation (poems for example)
+
+- DONE don't split on new line only on punctuation (poems for example)
+- line count is too heavily weighted (double used)
+- NLP
+- compare other indeces (lexile ...)
 
 #### Triage
+
 ```
 .
 |_utils/ (containing common words.txt)
@@ -19,18 +23,17 @@ This software is pre-pre-alpha
 ```
 
 #### Example Output
+
 ```
-                                           Text     Rigor
-0                            finnegans_wake.txt  1.598844
-1  poems_of_goethe_original_dedication_1853.txt  1.429199
-2                 moby_dick_herman_melville.txt  1.530692
-3                     ur-facism_umberto_eco.txt  1.475705
-4               the_great_gatsby_fitzgerald.txt  1.513111
+                                  Text        Rigour  Log(Rigour)  Line Count  Word Count  Processing Time
+0        emancipation_proclamation.txt  5.576547e+03     8.626325          15         612            0.095
+1            ur-facism_umberto_eco.txt  5.165997e+04    10.852439         266        5299            0.113
+2                          othello.txt  2.531929e+05    12.441907        2651       27395            0.449
+3                           hamlet.txt  2.688555e+05    12.501929        2361       29601            0.416
+4      the_great_gatsby_fitzgerald.txt  4.336010e+05    12.979880        2575       48151            0.493
+5  price_and_prejudice_jane_austen.txt  1.086440e+06    13.898417        5768      122393            1.024
+6        moby_dick_herman_melville.txt  1.903166e+06    14.459029        8670      208455            1.661
+7                   finnegans_wake.txt  2.209189e+06    14.608136       13776      219554            3.126
+8              ulysses_james_joyce.txt  2.415783e+06    14.697534       23454      264982            7.365
+9           les_miserables_victor_hugo  4.994009e+06    15.423750       30678      560682            9.948
 ```
-
-### Some cool visualisations with processed Data
-![Screenshot 2024-03-24 at 10 36 56 PM](https://github.com/aryanrsuri/OpenLRN/assets/13823329/c9bcc80c-b6bb-45ba-bb9d-09ca6e523c33)
-
-![Screenshot 2024-03-24 at 10 35 42 PM](https://github.com/aryanrsuri/OpenLRN/assets/13823329/f7e3fd5b-d22a-4135-aa18-eb74772d818c)
-
-
